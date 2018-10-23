@@ -22,9 +22,9 @@ class Header extends Component {
 	render() {
 		return (
 			<Fragment>
-				<a href={'#'} className={'main-header__trigger'} onClick={this.toggleDrawer('top', true)}><Menu /></a>
+				<a href={'#'} className={'main-header__trigger'} onClick={(e) => {this.setState({'top': true}); e.preventDefault();}}><Menu /></a>
 				<Drawer anchor="top" open={this.state.top} onClose={this.toggleDrawer('top', false)}>
-					<div tabIndex={0} role="button" onClick={this.toggleDrawer('top', false)} onKeyDown={this.toggleDrawer('top', false)}>
+					<div tabIndex={0} role="button" onClick={this.toggleDrawer('top', false)}>
 						<nav>
 							<ul>
 								<li>

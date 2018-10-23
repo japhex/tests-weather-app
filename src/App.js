@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './modules/layout/components/Header/Header';
 import WeatherBody from './pages/WeatherBody';
 import TremendousWeatherBody from './pages/TremendousWeatherBody';

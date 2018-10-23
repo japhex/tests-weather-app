@@ -1,0 +1,14 @@
+nav {
+	li {
+		padding:20px 25px;
+		border-bottom:1px dashed;
+
+		&:last-child {
+			border-bottom:0;
+		}
+
+		a {
+			text-decoration: none;
+		}
+	}
+}

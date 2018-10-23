@@ -1,0 +1,19 @@
+.weather-body {
+	position: relative;
+	margin:25px 15px 0;
+
+	.weather-body__image {
+		width: 100px;
+		height:100px;
+		background-size: contain;
+		margin:0 auto;
+	}
+
+	.weather-body__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 15px 15px 15px;
+	}
+}

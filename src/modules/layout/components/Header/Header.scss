@@ -1,0 +1,21 @@
+.main-header {
+	display: flex;
+	align-items: center;
+	padding:15px;
+	background: #3d5afe;
+	flex-direction: column;
+	justify-content: left;
+
+	a {
+		color:#fff;
+		text-decoration: none;
+	}
+
+	nav {
+		display: none;
+	}
+
+	&__trigger {
+		margin-right: auto;
+	}
+}
